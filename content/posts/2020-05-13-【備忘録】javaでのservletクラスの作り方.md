@@ -2,7 +2,7 @@
 template: post
 title: 【備忘録】JavaでのServletクラスの作り方
 slug: java-create-servlet-class
-draft: true
+draft: false
 date: 2020-05-13T06:54:50.310Z
 description: JavaでServletクラスどうすんだっけってのをまとめました。
 category: programming
