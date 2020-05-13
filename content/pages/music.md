@@ -3,7 +3,7 @@ template: page
 title: Music Works
 socialImage: /media/image-2.jpg
 slug: music-works
-draft: true
+draft: false
 ---
 
 # 携わった作品
