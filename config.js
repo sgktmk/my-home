@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://sgktmk.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Ceora',
+  subtitle: 'sgktmk について丸分かりです。',
+  copyright: '© 2020, sgktmk',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
@@ -16,28 +16,40 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'Photo',
+      path: '/pages/photo'
+    },
+    {
+      label: 'Music',
+      path: '/pages/music'
+    },
+    {
+      label: 'Other',
+      path: '/pages/other'
+    },
+    {
+      label: 'About',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'Contact',
+      path: '/pages/contact'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'sgktmk',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: '猫です。たまに喋ります。色々なことを勉強中。',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'me@sgktmk.com',
+      facebook: '',
+      telegram: '',
+      twitter: 'tom_ogashi',
+      github: 'sgktmk',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: '',
+      instagram: 'minoltmk_s',
       line: '',
       gitlab: '',
       weibo: '',
