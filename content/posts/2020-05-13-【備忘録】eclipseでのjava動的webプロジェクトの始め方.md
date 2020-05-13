@@ -7,7 +7,7 @@ date: 2020-05-13T06:37:22.204Z
 description: EclipseでJavaの開発を始めるとき、どうすんだっけっていうのをまとめました。
 category: programming
 tags:
-  - java
+  - java 備忘録
 ---
 # 流れ
 1. Eclipseを開く
