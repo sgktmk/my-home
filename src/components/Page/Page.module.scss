@@ -47,3 +47,17 @@
   }
 
 }
+// additional
+.page__title {
+  border-bottom: double $color-gray-border;
+  margin-bottom: -5%;
+}
+.page__body {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.page__body h1 {
+  border-bottom: double $color-gray-border;
+  border-top: 1px solid $color-gray-border;
+  padding: 1%;
+}
