@@ -2,7 +2,7 @@
 template: page
 title: About
 socialImage: /media/image-2.jpg
-slug: /about
+slug: about
 draft: true
 ---
 
