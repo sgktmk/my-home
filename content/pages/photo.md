@@ -1,7 +1,7 @@
 ---
 title: "Photo Works"
 template: "page"
-socialImage: ""
+socialImage: "/media/minolta-srt-super.jpg"
 ---
 
 # Instagram
