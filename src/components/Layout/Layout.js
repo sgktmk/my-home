@@ -5,6 +5,7 @@ import { withPrefix } from 'gatsby';
 import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
+import Header from '../Header'
 
 type Props = {
   children: ReactNode,
@@ -25,6 +26,7 @@ const Layout = ({
 
   return (
     <div className={styles.layout}>
+      <Header />
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -35,6 +37,7 @@ const Layout = ({
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
+        <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css" />
       </Helmet>
       {children}
     </div>

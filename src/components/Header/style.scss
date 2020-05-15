@@ -1,0 +1,14 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+.luxbar-menu {
+    background-color: white !important;
+    & li {
+        &:hover{
+            background-color: white !important;
+        }
+    }
+}
+
+.luxbar-hamburger {
+    color: #494949 !important;
+}

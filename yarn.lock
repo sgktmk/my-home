@@ -11244,6 +11244,11 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
+luxbar@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/luxbar/-/luxbar-0.3.2.tgz#83410b9d1f135b54d7b1393eae432087f9abcc4a"
+  integrity sha1-g0ELnR8TW1TXsTk+rkMgh/mrzEo=
+
 macos-release@^2.2.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/macos-release/-/macos-release-2.3.0.tgz#eb1930b036c0800adebccd5f17bc4c12de8bb71f"
