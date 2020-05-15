@@ -1,8 +1,11 @@
 ---
-title: "About"
-template: "page"
-socialImage: "/media/image-2.jpg"
+template: page
+title: About
+socialImage: /media/image-2.jpg
+slug: about
+draft: false
 ---
 
-# 略歴
-産まれる。
+# Webサイト名
+本Webサイトの名前となっている**Ceora**は、私が敬愛するJazz Trumpet Playerの*Lee Morgan*が1967年に発表した楽曲名が由来になっています。
+
