@@ -28,7 +28,7 @@ const Layout = ({
     <div className={styles.layout}>
       <Header />
       <Helmet>
-        <html lang="en" />
+        <html lang="ja" />
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta property="og:site_name" content={title} />

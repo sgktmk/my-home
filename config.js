@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://sgktmk.com',
   pathPrefix: '/',
   title: 'Ceora',
-  subtitle: 'sgktmk について丸分かりです。',
+  subtitle: '',
   copyright: '© 2020, sgktmk',
   disqusShortname: '',
   postsPerPage: 4,
