@@ -5,7 +5,6 @@ import { withPrefix } from 'gatsby';
 import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
-import Header from '../Header'
 
 type Props = {
   children: ReactNode,
@@ -26,7 +25,6 @@ const Layout = ({
 
   return (
     <div className={styles.layout}>
-      <Header />
       <Helmet>
         <html lang="ja" />
         <title>{title}</title>
