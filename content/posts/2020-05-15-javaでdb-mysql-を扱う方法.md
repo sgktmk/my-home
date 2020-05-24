@@ -2,7 +2,7 @@
 template: post
 title: JavaでDB(MySQL)を扱う方法
 slug: 2020/05/15/java-mysql
-draft: false
+draft: true
 date: 2020-05-15T06:51:35.617Z
 description: JavaでDB(MySQL)を扱う方法を調べたので、まとめてみました。
 category: programming

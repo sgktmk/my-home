@@ -2,7 +2,7 @@
 template: post
 title: 【備忘録】JavaでのServletクラスの作り方
 slug: java-create-servlet-class
-draft: false
+draft: true
 date: 2020-05-13T06:54:50.310Z
 description: JavaでServletクラスどうすんだっけってのをまとめました。
 category: programming
@@ -211,7 +211,8 @@ public class ManGenerater extends HttpServlet {
 		String age = request.getParameter("age");
 
 		request.setAttribute("name", name);
-		request.setAttribute("age", age);
+		request.setAttribute("age", age);
+
 	}
 }
 ```

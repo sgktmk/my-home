@@ -2,7 +2,7 @@
 template: post
 title: 【備忘録】EclipseでのJava動的Webプロジェクトの始め方
 slug: start-eclipse-java-project
-draft: false
+draft: true
 date: 2020-05-13T06:37:22.204Z
 description: EclipseでJavaの開発を始めるとき、どうすんだっけっていうのをまとめました。
 category: programming
