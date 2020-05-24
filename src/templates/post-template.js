@@ -1,6 +1,7 @@
 // @flow strict
 import React from 'react';
 import { graphql } from 'gatsby';
+import Header from '../components/Header'
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Post from '../components/Post';
@@ -21,6 +22,7 @@ const PostTemplate = ({ data }: Props) => {
 
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImage} >
+      <Header />
       <Post post={data.markdownRemark} />
       {/* <Sidebar /> */}
     </Layout>
