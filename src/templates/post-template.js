@@ -22,7 +22,6 @@ const PostTemplate = ({ data }: Props) => {
 
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImage} >
-      <Header />
       <Post post={data.markdownRemark} />
       {/* <Sidebar /> */}
     </Layout>

@@ -1,6 +1,7 @@
 // @flow strict
 import React from 'react';
 import Helmet from 'react-helmet';
+import Header from '../Header'
 import { withPrefix } from 'gatsby';
 import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
@@ -37,6 +38,7 @@ const Layout = ({
         <meta name="twitter:image" content={metaImageUrl} />
         <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css" />
       </Helmet>
+      <Header />
       {children}
     </div>
   );

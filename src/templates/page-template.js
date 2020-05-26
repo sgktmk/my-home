@@ -1,7 +1,6 @@
 // @flow strict
 import React from 'react';
 import { graphql } from 'gatsby';
-import Header from '../components/Header'
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
@@ -23,7 +22,6 @@ const PageTemplate = ({ data }: Props) => {
 
   return (
     <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImage} >
-      <Header />
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
       </Page>
