@@ -4,5 +4,5 @@ template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
-# 略歴
+## 略歴
 産まれる。

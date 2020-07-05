@@ -4,11 +4,11 @@ template: "page"
 socialImage: "/media/minolta-srt-super.jpg"
 ---
 
-# Instagram
+## Instagram
 [こちら](https://www.instagram.com/minoltmk_s/)が私のInstagramアカウントです。
 
-# 使用機材
-## Minolta SRT-Super
+## 使用機材
+### Minolta SRT-Super
 ![image](/media/minolta-srt-super.jpg)
 
 現在のメイン機材です。  
@@ -16,5 +16,5 @@ socialImage: "/media/minolta-srt-super.jpg"
 
 ボディ、かっこよくてつよつよすぎる。
 
-## Konica Minolta αSweet Digital
+### Konica Minolta αSweet Digital
 ![image](/media/sweet-digital.jpg)
