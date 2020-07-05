@@ -2,6 +2,9 @@
 @import '../../assets/scss/mixins';
 
 .post {
+//   &__content {
+//       max-width: $layout-post-width - 50px;
+//   }
   &__footer {
     max-width: $layout-post-width;
     margin: 0 auto;
@@ -41,7 +44,11 @@
 
 @include breakpoint-md {
   .post {
+    &__content {
+        lost-column: 2/3;
+    }
     &__footer {
+      lost-column: 2/3;
       padding: 0;
     }
 

@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Post from '../components/Post';
+import Pagination from '../components/Pagination';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
 
@@ -23,7 +24,7 @@ const PostTemplate = ({ data }: Props) => {
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImage} >
       <Post post={data.markdownRemark} />
-      {/* <Sidebar /> */}
+      <Sidebar />
     </Layout>
   );
 };
