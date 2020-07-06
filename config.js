@@ -7,7 +7,7 @@ module.exports = {
   subtitle: '',
   copyright: '© 2020, sgktmk',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 5,
   googleAnalyticsId: '',
   useKatex: false,
   menu: [
