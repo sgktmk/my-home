@@ -25,16 +25,10 @@ export default function Header () {
             <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
                 <ul class="luxbar-navigation">
                     <li class="luxbar-header">
-                        <a href="/" class="luxbar-brand">Ceora</a>
+                        <a href="/" class="luxbar-brand">Bikpela Poteto Bilong Mi</a>
                         <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
                             id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
                     </li>
-                    <li class="luxbar-item"><a href="/">Articles</a></li>
-                    <li class="luxbar-item"><a href="/pages/photo">Photo</a></li>
-                    <li class="luxbar-item"><a href="/pages/music">Music</a></li>
-                    <li class="luxbar-item"><a href="/pages/other">Other</a></li>
-                    <li class="luxbar-item"><a href="/pages/about">About</a></li>
-                    <li class="luxbar-item"><a href="/pages/contact">Contact</a></li>
                 </ul>
             </div>
         </header>

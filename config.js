@@ -3,9 +3,9 @@
 module.exports = {
   url: 'https://sgktmk.com',
   pathPrefix: '/',
-  title: 'Ceora',
+  title: 'Bikpela Poteto Bilong Mi',
   subtitle: '',
-  copyright: '© 2020, sgktmk',
+  copyright: '© 2021, sgktmk',
   disqusShortname: '',
   postsPerPage: 5,
   googleAnalyticsId: '',
@@ -37,14 +37,14 @@ module.exports = {
     }
   ],
   author: {
-    name: 'sgktmk',
+    name: 'あがるさがる',
     photo: '/photo.jpg',
     bio: '猫です。たまに喋ります。色々なことを勉強中。',
     contacts: {
       email: 'me@sgktmk.com',
       facebook: '',
       telegram: '',
-      twitter: 'tom_ogashi',
+      twitter: 'agsg_',
       github: 'sgktmk',
       rss: '',
       vkontakte: '',
